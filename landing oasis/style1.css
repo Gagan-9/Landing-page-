@@ -1,0 +1,109 @@
+.navbar {
+    background-color: black;
+}
+.navbar-brand,.nav-link,.card-title,.card-text{
+    color: aliceblue;   
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #444;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+.hero{  
+        background-image: url('https://tse3.mm.bing.net/th?id=OIP.2Q3kcaM8KjF3kg4e5Z6H3AHaEh&pid=Api&P=0&h=180.jpg');
+        background-position: center center; /* Center the image horizontally and vertically */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: cover; /* Cover the entire container */
+
+}
+#hero2{
+    padding:15px;
+    background-color: rgb(45, 45, 160);
+}
+
+
+input[type="text"] {
+    width: 300px; 
+    height: 50px; 
+}
+.card {
+    width: 300px;
+    height: 200px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    position: relative;
+    animation: cardAnimation 2s ease-in-out infinite alternate;
+}
+
+@keyframes cardAnimation {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.1);
+    }
+}
+
+
+#myform label {
+    font-weight: bold; 
+  }
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+      width: 500px;
+      padding: auto;
+      margin-top: 5px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+      margin-left: 15px;
+  }
+
+.form-group {
+    margin-bottom: 15px;
+}
+#myform input:hover{
+    border: 2px solid black;
+}
+
+button[type="submit"] {
+    justify-content: center;
+    background-color:blue;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+footer{
+    background-color: #333;
+    text-align: center;
+    height:50px;
+}

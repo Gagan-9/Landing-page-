@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Landing Page</title>
+
+    <!-- Add Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style1.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg">
+    <div class="container">
+        <a class="navbar-brand" href="#">My Learning</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item ">
+                    <a class="nav-link" href="#123">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#courses">Courses</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#register">Register</a>
+                </li>
+            </ul>
+        </div>
+        <div class="dropdown">
+            <a class="nav-link" href="#login">Profile 👤</a>
+            <div class="dropdown-content">
+                <a href="#">Create Account</a>
+                <a href="#">Sign up</a>
+                <a href="#">Log Out</a>
+            </div>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero text-center py-5" id="123">
+    <div class="container">
+        <div class="row">
+        <div class="col-md-6">
+        <h1 style="color:aliceblue">Welcome to MyLearn - Your Personal, Digital Cloud Learning Portal</h1>
+        <p style="color:aliceblue">MyLearn is a customizable, personalized training portal that enhances and speeds your learning of Oracle Cloud. Find the training you want, fast. Easily track your progress. Get course recommendations that best match your learning goals. Get it all - and more - on any device, from any location.</p>
+    </div>
+    <div class="col-md-6">
+        <img src="https://tse3.mm.bing.net/th?id=OIP.CsWZ1icHvIffq9z722psvQHaFO&pid=Api&P=0&h=180.jpg" height="350">
+    </div>
+</div>
+</div>
+</section>
+<div id="hero2">
+    <form id="preferences-form" style="text-align:right: ;">
+        <input type="text" id="preference" name="preference" placeholder="+Add preferences">
+    </form>
+</div>
+
+<!-- courses Section -->
+<section id="courses" class="bg-light py-5">
+    <div class="container">
+        <h2 class="text-align" style="color: black;">EXPLORE COURSES</h2>
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="card" style="background-color: brown;">
+                    <div class="card-body">
+                        <h2 class="card-title">COURSE 1</h2>
+                        <p class="card-text">Web Development</p>
+                        <a href="#" class="btn btn-light">Get Certified</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card" style="background-color: chocolate;">
+                    <div class="card-body">
+                        <h2 class="card-title">COURSE 2</h2>
+                <p class="card-text">Android Development</p>
+                <a href="#" class="btn btn-light">Get Certified</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card" style="background-color: green;">
+                    <div class="card-body">
+                        <h2 class="card-title">COURSE 3</h2>
+                        <p class="card-text">Cyber Security</p>
+                        <a href="#" class="btn btn-light">Get Certified</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="card" style="background-color: rgb(21, 81, 21);">
+                    <div class="card-body">
+                        <h2 class="card-title">COURSE 4</h2>
+                        <p class="card-text">Blockchain</p>
+                        <a href="#" class="btn btn-light">Get Certified</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card" style="background-color: rgb(82, 26, 134);">
+                    <div class="card-body">
+                        <h2 class="card-title" >COURSE 5</h2>
+                <p class="card-text">Artificial intelligence</p>
+                   <a href="#" class="btn btn-light">Get Certified</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card">
+                    <div class="card-body" style=" background-color: rgb(226, 43, 43);">
+                        <h2 class="card-title">COURSE 6</h2>
+                        <p class="card-text">Databases</p>
+                        <a href="#" class="btn btn-light">Get Certified</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Contact Section -->
+<section id="register" class="py-5" style="background-image:url('https://tse4.explicit.bing.net/th?id=OIP._i1A8QvP_Hgn6Z8GAt76QwHaFD&pid=Api&P=0&h=180.jpg');">
+    <div class="container">
+        <div id="myform">
+        <h2 class="text-center">Registration Form</h2>
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <form >
+                    <div class="form-group">
+                        <label for="fullName">Full Name</label>
+                        <input type="text" class="form-control" id="fullName" placeholder="Enter your full name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" class="form-control" id="password" placeholder="Enter your password" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="confirmPassword">Confirm Password</label>
+                        <input type="password" class="form-control" id="confirmPassword" placeholder="Confirm your password" required>
+                    </div>
+                    <button type="submit" class="btn">Register</button>
+                </form>
+            </div>
+        </div>
+        </div>
+    </div>
+</section>
+<footer>
+    <p style="color: aliceblue;">&copy; 2023 My Learning. </p>
+</footer>
+
+<!-- Add Bootstrap JS (Optional) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
